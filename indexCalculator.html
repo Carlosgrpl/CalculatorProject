@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylesCalculator.css">
+    <script src="mainCalculator.js"></script>
 </head>
 <body>
     
+<div id="calculator">
+    <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplayFunction(" + ")">+</button>
+            <button onclick="appendToDisplayFunction(" + ")">7</button>
+            <button onclick="appendToDisplayFunction(" + ")">8</button>
+            <button onclick="appendToDisplayFunction(" + ")">9</button>
+            <button onclick="appendToDisplayFunction(" + ")">-</button>
+            <button onclick="appendToDisplayFunction(" + ")">4</button>
+            <button onclick="appendToDisplayFunction(" + ")">5</button>
+            <button onclick="appendToDisplayFunction(" + ")">6</button>
+            <button onclick="appendToDisplayFunction(" + ")">*</button>
+            <button onclick="appendToDisplayFunction(" + ")">1</button>
+            <button onclick="appendToDisplayFunction(" + ")">2</button>
+            <button onclick="appendToDisplayFunction(" + ")">3</button>
+            <button onclick="appendToDisplayFunction(" + ")">/</button>
+            <button onclick="appendToDisplayFunction(" + ")">0</button>
+            <button onclick="appendToDisplayFunction(" + ")">.</button>
+            <button onclick="calculate()">=</button> 
+            <button onclick="clearDisplay()">C</button> 
+
+        </div>
+</div>
+
 </body>
 </html>
